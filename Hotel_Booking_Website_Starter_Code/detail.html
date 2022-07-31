@@ -5,19 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
+    <style>
+           #logo{
+            height: 60px;
+            width: 60px;
+          }
+          html,body{
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #img1{
+            height: 500px;
+            width: 500px;
+        }
+        #logos{
+        height: 20px;
+        width: 22px;
+       }
+
+
+
+    </style>
 </head>
 <body>
     <!--main div-->
     <div>
         <!--header div-->
+        <header>
         <div>
-            <a href="index.html"><img src="../Hotel_Booking_Website_Starter_Code/assests/images/logo.png" alt="logo" height="200px" width="150px"></a>
+            <a href="index.html"><img id="logo" src="../Hotel_Booking_Website_Starter_Code/assests/images/logo.png" alt="logo" height="200px" width="150px"></a>
             <a href="login.html" target="_blank">Login</a>
 
         </div>
+        </header>
         <!--content div-->
         <div>
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
+            <img  id="img1" src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
             <form action="payment.html" method="get">
             <div>Adults:<input type="number" min="1" placeholder="0" required></div>
             <div>Name:<input type="text" required ></div>
@@ -44,21 +69,23 @@
 
         </div>
         <!--footer div-->
+        <footer>
         <div>
             <div><a href="contact.html" target="_blank">Contact Us</a></div>
             <div>
                 <a href="https://www.facebook.com/" target="_blank">
-                <img src="../Hotel_Booking_Website_Starter_Code/assests/images/facebook.png" height="20px" width="22px">
+                <img id="logos" src="../Hotel_Booking_Website_Starter_Code/assests/images/facebook.png" height="20px" width="22px">
                 </a>
                 <a href="https://www.instagram.com/accounts/login/" target="_blank">
-                <img src="../Hotel_Booking_Website_Starter_Code/assests/images/instagram.png" height="20px" width="22px">
+                <img id="logos" src="../Hotel_Booking_Website_Starter_Code/assests/images/instagram.png" height="20px" width="22px">
                  </a>
                  <a href="https://twitter.com/" target="_blank">
-                <img src="../Hotel_Booking_Website_Starter_Code/assests/images/twitter.png" height="20px" width="22px">
+                <img id="logos" src="../Hotel_Booking_Website_Starter_Code/assests/images/twitter.png" height="20px" width="22px">
                 </a>
             </div>
             <div>© 2020 ROOM SEARCH PVT LTD</div>
         </div>
+        </footer>
     </div>
 </body>
 </html>
